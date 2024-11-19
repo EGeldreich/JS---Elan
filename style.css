@@ -1,0 +1,23 @@
+#wrapper {
+    padding: 20px;
+}
+#btn {
+    width: 50%;
+}
+.task {
+    margin-top: 20px;;
+}
+.delBtn {
+    position: relative;
+    right: 30px;
+    bottom: 15px;
+}
+#todoCards {
+    display: flex;
+    flex-wrap: wrap;
+}
+#count {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
