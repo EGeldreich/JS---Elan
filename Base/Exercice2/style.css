@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top {
+    display: flex;
+}
+.square, .final-square {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: slategray;
+    font-size: 1.5em;
+    line-height: 200px;
+    text-align: center;
+    cursor: pointer;
+}
+.bg1 {
+    background-color: cadetblue;
+}
+.bg2 {
+    background-color: rebeccapurple;
+}
+.bg3 {
+    background-color: firebrick;
+}
+.bg4 {
+    background-color: seagreen;
+}
+.bg5 {
+    background-color: slategrey;
+}

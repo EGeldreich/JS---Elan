@@ -1,0 +1,24 @@
+.container {
+    margin: 0 auto;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.square {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: olivedrab;
+    color: azure;
+    font-size: 2em;
+    line-height: 200px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.clicked {
+    transform: scale(0.9) rotate(360deg);
+    background-color: brown;
+}

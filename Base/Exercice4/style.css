@@ -1,0 +1,32 @@
+.container {
+    width: 100%;
+    background-color: slategrey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: azure;
+}
+h2 {
+    flex-basis: 100%;
+    text-align: center;
+}
+.square {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+
+    font-size: 2em;
+    line-height: 200px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.fb {
+    background-color: #1877F2;
+}
+.x {
+    background-color: black;
+}
+.ig {
+    background-color: #E1306C;
+}
