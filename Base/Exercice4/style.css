@@ -27,7 +27,7 @@ h2 {
     background-color: #1877F2;
 }
 .x {
-    background-color: black;
+    background-color: #000000;
 }
 .ig {
     background-color: #E1306C;
@@ -37,10 +37,10 @@ h2 {
     font-family: sans-serif;
     display: none;
 }
-.clicked {
+.active {
     border-radius: 10px;
     box-shadow: 10px 10px rgb(34, 34, 34);
 }
-.clicked .brand-name {
+.active .brand-name {
     display: inline;
 }
