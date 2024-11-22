@@ -1,4 +1,6 @@
 .container {
+    
+    padding: 100px 0;
     width: 100%;
     background-color: slategrey;
     display: flex;
@@ -14,12 +16,12 @@ h2 {
     margin: 10px;
     width: 200px;
     height: 200px;
-
     font-size: 2em;
-    line-height: 200px;
+    align-content: center;
     text-align: center;
     cursor: pointer;
     transition: all 0.3s;
+    border: 1px solid white;
 }
 .fb {
     background-color: #1877F2;
@@ -29,4 +31,16 @@ h2 {
 }
 .ig {
     background-color: #E1306C;
+}
+.brand-name {
+    font-size: 0.7em;
+    font-family: sans-serif;
+    display: none;
+}
+.clicked {
+    border-radius: 10px;
+    box-shadow: 10px 10px rgb(34, 34, 34);
+}
+.clicked .brand-name {
+    display: inline;
 }
